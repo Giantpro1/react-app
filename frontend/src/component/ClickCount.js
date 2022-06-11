@@ -8,10 +8,10 @@ import WithCounter from './WithCounter'
     return (
       <div>
         <button onClick={incrementCount}>
-          Click Count {count} </button>   
+       {this.props.name}   Click Count {count} </button>   
           </div>
     )
   }
 }
 
-export default WithCounter(ClickCount) 
+export default WithCounter(ClickCount, 5) 

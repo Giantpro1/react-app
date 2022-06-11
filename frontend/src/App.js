@@ -12,7 +12,7 @@ class App extends Component {
   render(){
     return (
       <div className='App'>
-      <ClickCount/>
+      <ClickCount name= 'GiantPro'/>
       <HoverCounter/>
       </div>
       
